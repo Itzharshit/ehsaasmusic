@@ -30,7 +30,7 @@ HELPABLE = {}
 
 async def initiate_bot():
     with console.status(
-        "[magenta] Booting up The Yukki Music Bot...",
+        "[magenta] 𝘽𝙤𝙤𝙩𝙞𝙣𝙜 𝙪𝙥 𝙏𝙝𝙚 𝙔𝙪𝙠𝙠𝙞 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩...",
     ) as status:
         console.print("┌ [red]Clearing MongoDB cache...")
         try:
@@ -253,7 +253,7 @@ async def start_command(_, message):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+🔍__**𝙑𝙞𝙙𝙚𝙤 𝙏𝙧𝙖𝙘𝙠 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣**__
 
 ❇️**Title:** {title}
 
@@ -264,15 +264,15 @@ async def start_command(_, message):
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
 
-⚡️ __Searched Powered By {BOT_NAME}t__"""
+⚡️__𝙎𝙚𝙖𝙧𝙘𝙝𝙚𝙙 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 {BOT_NAME}t__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch Youtube Video", url=f"{link}"
+                            text="❰🎥 𝙒𝙖𝙩𝙘𝙝 𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝙑𝙞𝙙𝙚𝙤❱", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="❰🔄 𝘾𝙡𝙤𝙨𝙚❱", callback_data="close"
                         ),
                     ],
                 ]
@@ -340,10 +340,10 @@ All commands can be used with: /
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
+                        text="❰↪️ 𝘽𝙖𝙘𝙠❱", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        text="🔄 Close", callback_data="close"
+                        text="❰🔄 𝘾𝙡𝙤𝙨𝙚❱", callback_data="close"
                     ),
                 ],
             ]

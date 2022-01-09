@@ -10,7 +10,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -24,7 +24,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -43,7 +43,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -62,7 +62,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -87,7 +87,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -102,7 +102,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -122,7 +122,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [
@@ -142,7 +142,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
+                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
                 ),
             ],
             [

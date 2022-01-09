@@ -19,31 +19,31 @@ __MODULE__ = "SudoUsers"
 __HELP__ = """
 
 
-/sudolist 
-    Check the sudo user list of Bot. 
+/𝙨𝙪𝙙𝙤𝙡𝙞𝙨𝙩 
+    𝘾𝙝𝙚𝙘𝙠 𝙩𝙝𝙚 𝙨𝙪𝙙𝙤 𝙪𝙨𝙚𝙧 𝙡𝙞𝙨𝙩 𝙤𝙛 𝘽𝙤𝙩. 
 
 
-**Note:**
-Only for Sudo Users. 
+**𝙉𝙤𝙩𝙚:**
+𝙊𝙣𝙡𝙮 𝙛𝙤𝙧 𝙎𝙪𝙙𝙤 𝙐𝙨𝙚𝙧𝙨. 
 
 
-/addsudo [Username or Reply to a user]
-- To Add A User In Bot's Sudo Users.
+/𝙖𝙙𝙙𝙨𝙪𝙙𝙤 [𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 𝙤𝙧 𝙍𝙚𝙥𝙡𝙮 𝙩𝙤 𝙖 𝙪𝙨𝙚𝙧]
+- 𝙏𝙤 𝘼𝙙𝙙 𝘼 𝙐𝙨𝙚𝙧 𝙄𝙣 𝘽𝙤𝙩'𝙨 𝙎𝙪𝙙𝙤 𝙐𝙨𝙚𝙧𝙨.
 
-/delsudo [Username or Reply to a user]
-- To Remove A User from Bot's Sudo Users.
+/𝙙𝙚𝙡𝙨𝙪𝙙𝙤 [𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 𝙤𝙧 𝙍𝙚𝙥𝙡𝙮 𝙩𝙤 𝙖 𝙪𝙨𝙚𝙧]
+- 𝙏𝙤 𝙍𝙚𝙢𝙤𝙫𝙚 𝘼 𝙐𝙨𝙚𝙧 𝙛𝙧𝙤𝙢 𝘽𝙤𝙩'𝙨 𝙎𝙪𝙙𝙤 𝙐𝙨𝙚𝙧𝙨.
 
-/restart 
-- Restart Bot [All downloads, cache, raw files will be cleared too]. 
+/𝙧𝙚𝙨𝙩𝙖𝙧𝙩 
+- 𝙍𝙚𝙨𝙩𝙖𝙧𝙩 𝘽𝙤𝙩 [𝘼𝙡𝙡 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙨, 𝙘𝙖𝙘𝙝𝙚, 𝙧𝙖𝙬 𝙛𝙞𝙡𝙚𝙨 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙘𝙡𝙚𝙖𝙧𝙚𝙙 𝙩𝙤𝙤]. 
 
-/maintenance [enable / disable]
-- When enabled Bot goes under maintenance mode. No one can play Music now!
+/𝙢𝙖𝙞𝙣𝙩𝙚𝙣𝙖𝙣𝙘𝙚 [𝙚𝙣𝙖𝙗𝙡𝙚 / 𝙙𝙞𝙨𝙖𝙗𝙡𝙚]
+- 𝙒𝙝𝙚𝙣 𝙚𝙣𝙖𝙗𝙡𝙚𝙙 𝘽𝙤𝙩 𝙜𝙤𝙚𝙨 𝙪𝙣𝙙𝙚𝙧 𝙢𝙖𝙞𝙣𝙩𝙚𝙣𝙖𝙣𝙘𝙚 𝙢𝙤𝙙𝙚. 𝙉𝙤 𝙤𝙣𝙚 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙈𝙪𝙨𝙞𝙘 𝙣𝙤𝙬!
 
-/update 
-- Fetch Updates from Server.
+/𝙪𝙥𝙙𝙖𝙩𝙚 
+- 𝙁𝙚𝙩𝙘𝙝 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝙛𝙧𝙤𝙢 𝙎𝙚𝙧𝙫𝙚𝙧.
 
-/clean
-- Clean Temp Files and Logs.
+/𝙘𝙡𝙚𝙖𝙣
+- 𝘾𝙡𝙚𝙖𝙣 𝙏𝙚𝙢𝙥 𝙁𝙞𝙡𝙚𝙨 𝙖𝙣𝙙 𝙇𝙤𝙜𝙨.
 """
 # Add Sudo Users!
 
@@ -185,7 +185,7 @@ async def theme_func(_, message):
         try:
             await app.send_message(
                 x,
-                f"{MUSIC_BOT_NAME} has just restarted herself. Sorry for the issues.\n\nStart playing after 10-15 seconds again.",
+                f"{MUSIC_BOT_NAME} 𝙝𝙖𝙨 𝙟𝙪𝙨𝙩 𝙧𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙 𝙝𝙚𝙧𝙨𝙚𝙡𝙛. 𝙎𝙤𝙧𝙧𝙮 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙞𝙨𝙨𝙪𝙚𝙨.\n\n𝙎𝙩𝙖𝙧𝙩 𝙥𝙡𝙖𝙮𝙞𝙣𝙜 𝙖𝙛𝙩𝙚𝙧 10-15 𝙨𝙚𝙘𝙤𝙣𝙙𝙨 𝙖𝙜𝙖𝙞𝙣.",
             )
             await remove_active_chat(x)
         except Exception:
@@ -393,7 +393,7 @@ async def chat_watcher_func(_, message):
         except Exception:
             return
         await message.reply_text(
-            f"{checking} is globally banned by Sudo Users and has been kicked out of the chat.\n\n**Possible Reason:** Potential Spammer and Abuser."
+            f"{checking} 𝙞𝙨 𝙜𝙡𝙤𝙗𝙖𝙡𝙡𝙮 𝙗𝙖𝙣𝙣𝙚𝙙 𝙗𝙮 𝙎𝙪𝙙𝙤 𝙐𝙨𝙚𝙧𝙨 𝙖𝙣𝙙 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙠𝙞𝙘𝙠𝙚𝙙 𝙤𝙪𝙩 𝙤𝙛 𝙩𝙝𝙚 𝙘𝙝𝙖𝙩.\n\n**Possible Reason:** 𝙋𝙤𝙩𝙚𝙣𝙩𝙞𝙖𝙡 𝙎𝙥𝙖𝙢𝙢𝙚𝙧 𝙖𝙣𝙙 𝘼𝙗𝙪𝙨𝙚𝙧."
         )
 
 

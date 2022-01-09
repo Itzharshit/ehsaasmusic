@@ -32,17 +32,17 @@ def song_download_markup(videoid, user_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⬇️ Get Audio",
+                text="❰⬇️ 𝙂𝙚𝙩 𝘼𝙪𝙙𝙞𝙤❱",
                 callback_data=f"gets audio|{videoid}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="⬇️ Get Video",
+                text="❰⬇️ 𝙂𝙚𝙩 𝙑𝙞𝙙𝙚𝙤❱",
                 callback_data=f"gets video|{videoid}|{user_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🗑 Close Menu",
+                text="❰🗑 𝘾𝙡𝙤𝙨𝙚 𝙈𝙚𝙣𝙪❱",
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
         ],

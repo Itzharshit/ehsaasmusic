@@ -10,12 +10,12 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
                 )
             ],
         ]
@@ -24,17 +24,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -43,17 +43,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071"
                 ),
             ],
         ]
@@ -62,20 +62,20 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -87,12 +87,12 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -102,18 +102,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -122,18 +122,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071"
                 ),
             ],
         ]
@@ -142,21 +142,21 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="❰🗂 𝙃𝙚𝙡𝙥𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙈𝙚𝙣𝙪❱", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]

@@ -30,9 +30,9 @@ __MODULE__ = "Stats"
 __HELP__ = """
 
 
-/stats
-- Check the Stats of Bot.
-- Gets the stat of MongoDb , Assistant, System etc
+/𝙨𝙩𝙖𝙩𝙨
+- 𝘾𝙝𝙚𝙘𝙠 𝙩𝙝𝙚 𝙎𝙩𝙖𝙩𝙨 𝙤𝙛 𝘽𝙤𝙩.
+- 𝙂𝙚𝙩𝙨 𝙩𝙝𝙚 𝙨𝙩𝙖𝙩 𝙤𝙛 𝙈𝙤𝙣𝙜𝙤𝘿𝙗 , 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩, 𝙎𝙮𝙨𝙩𝙚𝙢 𝙚𝙩𝙘
 """
 
 
@@ -92,7 +92,7 @@ async def stats_markup(_, CallbackQuery):
         smex = f"""
 [•]<u>**System Stats**</u>
 
-**Yukki Uptime:** {uptime}
+**Ehsaas Uptime:** {uptime}
 **System Proc:** Online
 **Platform:** {sc}
 **Architecture:** {arch}

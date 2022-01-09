@@ -1,4 +1,4 @@
-<h1 align= center><b>⭐️ Yukki Music Bot [ Multi-Assistant ]⭐️</b></h1>
+<h1 align= center><b>⭐️ Ehsaas Music Bot [ Multi-Assistant ]⭐️</b></h1>
 <h3 align = center> A Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls </h3>
 
 <p align="center">
@@ -20,8 +20,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/YukkiRobot"> YukkiMusicBot </a> |
-    <a href="https://t.me/OfficialYukkiSupport"> YukkiSupport </a>
+    <a href="https://t.me/YukkiRobot"> ehsaasMusicBot </a> |
+    <a href="https://t.me/OfficialYukkiSupport"> ehsaas Support </a>
 </p>
 
 <h2 align="center">

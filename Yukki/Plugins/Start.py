@@ -76,7 +76,7 @@ async def welcome(_, message: Message):
                 ) = await get_assistant_details(ran_ass)
                 out = start_pannel()
                 await message.reply_text(
-                    f"Welcome To {MUSIC_BOT_NAME}\n\nPromote me as administrator in your group otherwise I will not function properly.\n\nAssistant Username:- @{ASS_USERNAME}\nAssistant ID:- {ASS_ID}",
+                    f"𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 {MUSIC_BOT_NAME}\n\n𝙋𝙧𝙤𝙢𝙤𝙩𝙚 𝙢𝙚 𝙖𝙨 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙩𝙤𝙧 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙤𝙩𝙝𝙚𝙧𝙬𝙞𝙨𝙚 𝙄 𝙬𝙞𝙡𝙡 𝙣𝙤𝙩 𝙛𝙪𝙣𝙘𝙩𝙞𝙤𝙣 𝙥𝙧𝙤𝙥𝙚𝙧𝙡𝙮.\n\n𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚:- @{ASS_USERNAME}\n𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙄𝘿:- {ASS_ID}",
                     reply_markup=InlineKeyboardMarkup(out[1]),
                 )
             if member.id in ASSIDS:

@@ -195,11 +195,10 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-I'm Telegram Voice Chat Audio with some useful features.
+home_text_pm = f"""𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙈 𝘼𝙉 𝘼𝘿𝙑𝘼𝙉𝘾𝙀𝘿 𝙎𝙐𝙋𝙀𝙍𝙁𝘼𝙎𝙏
+𝙃𝙄𝙂𝙃 𝙌𝙐𝘼𝙇𝙄𝙏𝙔 𝙑𝘾 𝙈𝙐𝙎𝙄𝘾 𝙋𝙇𝘼𝙔𝙀𝙍.
 
-All commands can be used with: / """
+✅ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 :- <a href=\"https://t.me/Army0071\">🇮🇳 ᴀʀᴍy 🇮🇳</a>"""
 
 
 @app.on_message(filters.command("help") & filters.private)

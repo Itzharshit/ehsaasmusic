@@ -287,7 +287,6 @@ async def start_command(_, message):
     out = private_panel()
     return await message.reply_text(
         home_text_pm,
-        reply_markup=InlineKeyboardMarkup(out[1]),
     )
 
 
@@ -358,7 +357,6 @@ All commands can be used with: /
         await app.send_message(
             query.from_user.id,
             text=home_text_pm,
-            reply_markup=InlineKeyboardMarkup(out[1]),
         )
         await query.message.delete()
     elif prev_match:

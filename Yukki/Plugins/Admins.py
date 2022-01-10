@@ -96,7 +96,7 @@ async def admins(_, message: Message):
         await remove_active_chat(chat_id)
         await stop_stream(chat_id)
         await message.reply_text(
-            f"🎧 Voicechat End/Stopped by {message.from_user.mention}!"
+            f"🎧 𝙑𝙤𝙞𝙘𝙚𝙘𝙝𝙖𝙩 𝙀𝙣𝙙/𝙎𝙩𝙤𝙥𝙥𝙚𝙙 𝙗𝙮 {message.from_user.mention}!"
         )
     if message.command[0][1] == "k":
         Queues.task_done(chat_id)

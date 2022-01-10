@@ -111,7 +111,7 @@ async def play(_, message: Message):
             await message.reply_photo(
                 photo="Utils/Playlist.jpg",
                 caption=(
-                    "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Playlists! Select the one from Below."
+                    "**𝙐𝙨𝙖𝙜𝙚:** /play [𝙈𝙪𝙨𝙞𝙘 𝙉𝙖𝙢𝙚 𝙤𝙧 𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝙇𝙞𝙣𝙠 𝙤𝙧 𝙍𝙚𝙥𝙡𝙮 𝙩𝙤 𝘼𝙪𝙙𝙞𝙤]\n\n𝙄𝙛 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙥𝙡𝙖𝙮 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩𝙨! 𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 𝙤𝙣𝙚 𝙛𝙧𝙤𝙢 𝘽𝙚𝙡𝙤𝙬."
                 ),
                 reply_markup=InlineKeyboardMarkup(buttons),
             )
